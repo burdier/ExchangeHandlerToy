@@ -43,6 +43,7 @@ namespace HandlerExchange.Core.Services
         }
         public async Task Sell(Guid investmentId, decimal quantity)
         {
+            await Task.CompletedTask;
             throw new NotImplementedException();
         }
 
